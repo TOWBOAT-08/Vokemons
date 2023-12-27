@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('./rayquaza-flying-in-the-clouds-pokemon-thumb.jpg') center center fixed;
+  background-size: cover;
+  height: 100vh; 
+}
+
+header {
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-text {
+  font-size: 20px;
+}
+
+.header-buttons {
+  margin-top: 20px;
+}
+
+.header-button {
+  display: inline-block;
+  margin-left: 10px;
+  color: #0004ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.about-section h2 {
+  color: #000000;
+}
+
+.about-section p {
+  font-size: 14px;
+  color: #333;
+}
+
+.news-section {
+  background-color: transparent;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.news-item {
+  display: inline-block; 
+  margin: 10px; 
+  padding: 50px;
+}
+
+.news-item img {
+  max-width: 500px;
+  height: auto;
+}
+
+.news-item h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tournament-news {
+  text-align: center;
+}
+
